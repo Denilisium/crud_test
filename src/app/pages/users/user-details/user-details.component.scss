@@ -1,0 +1,23 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.user-field {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+
+  border-bottom: 1px solid #333;
+  
+
+  .title {
+    flex-basis: 20rem;
+  }
+
+  .value {
+
+  }
+}
