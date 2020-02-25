@@ -7,6 +7,6 @@ export class ConfigService {
   usersUrl = `${this.baseUrl}users`;
 
   getUserUrl(id: number) {
-    return `${this.usersUrl}?id=${id}`;
+    return `${this.usersUrl}/${id}`;
   }
 }
